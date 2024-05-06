@@ -13,6 +13,7 @@ No es un documento oficial, es simplemente una guía que me sirve a mí y que co
 - [Instalación de Xdebug](#instalación-de-xdebug)
 - [Mapping de ficheros](#mapping-de-ficheros)
 - [Configuración de Xdebug en PhpStorm](#configuración-de-xdebug-en-phpstorm)
+- [Configuración de Phpunit en PhpStorm](#configuración-de-phpunit-en-phpstorm)
 
 ### Requisitos
 
@@ -26,6 +27,22 @@ Además de las evidentes ventajas de tener un entorno de desarrollo idéntico al
 
 ### Configuración docker en PhpStorm
 
+Hay dos formas para configurar docker en PhpStorm. Aunque la realidad es que puedes utilizar cualquiera de los dos métodos y el resultado va ser el mismo.
+
+1. Lo primero es ir a la barra superior derecha y seleccionar `Edit Configurations...`
+
+   ![Toolbar](images/edit_configuration.jpg "Toolbar")
+
+   Os saldrá una ventana como la siguiente:
+
+   ![New Configuration](images/new_configuration.jpg "New Configuration")
+
+   Simplemente tenéis que hacer click en el botón `+` y seleccionar `Docker-compose` o `Dockerfile` según vuestra configuración.
+
+   ![Configuration Docker](images/select_configuration_docker.jpg "Configuration Docker")
+   2. **Docker-compose**: Si trabajas con docker-compose, puedes configurar tu entorno de desarrollo en PhpStorm de la siguiente forma:
+   3. **Dockerfile**: Si trabajas con un Dockerfile, puedes configurar tu entorno de desarrollo en PhpStorm de la siguiente forma:
+
 ### Configurar intérprete
 
 ### Instalación de Xdebug
@@ -33,3 +50,5 @@ Además de las evidentes ventajas de tener un entorno de desarrollo idéntico al
 ### Mapping de ficheros
 
 ### Configuración de Xdebug en PhpStorm
+
+### Configuración de Phpunit en PhpStorm
